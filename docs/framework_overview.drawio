@@ -1,0 +1,128 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.7.17">
+  <diagram name="Page-1" id="qCadsNzABqGTmcjrxvg6">
+    <mxGraphModel dx="572" dy="-916" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CrKRcG8iRqfCQJ3Y7D6_-1" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;strokeColor=#000000;fontColor=#000000;fontSize=13;fontStyle=0;comic=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Lucida Console;labelBorderColor=none;textShadow=0;" edge="1" parent="1" source="CrKRcG8iRqfCQJ3Y7D6_-2" target="CrKRcG8iRqfCQJ3Y7D6_-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1286.6666666666667" y="2256.333333333333" as="sourcePoint" />
+            <mxPoint x="1287.6666666666667" y="2287.333333333333" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CrKRcG8iRqfCQJ3Y7D6_-2" value="ai3.swap_operation(X, &lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;orig_model&lt;/span&gt;&lt;/font&gt;, algos)" style="swimlane;html=1;labelBackgroundColor=none;fillColor=#f2f2eb;strokeColor=#000000;fontSize=13;swimlaneFillColor=#f2f3f4;rounded=1;fontStyle=0;comic=0;portConstraintRotation=0;dropTarget=1;collapsible=0;fontFamily=Lucida Console;fontColor=#000000;labelBorderColor=none;textShadow=0;" vertex="1" parent="1">
+          <mxGeometry x="904.6666666666667" y="1997.3333333333333" width="440" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="CrKRcG8iRqfCQJ3Y7D6_-3" value="ai3.swap_torch.X" style="edgeLabel;resizable=0;html=1;;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontColor=#000000;fontSize=13;fontStyle=0;comic=0;fontFamily=Lucida Console;labelBorderColor=none;textShadow=0;" connectable="0" vertex="1" parent="CrKRcG8iRqfCQJ3Y7D6_-2">
+          <mxGeometry x="279" y="45" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CrKRcG8iRqfCQJ3Y7D6_-4" value="torch.nn.X" style="edgeLabel;resizable=0;html=1;;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontColor=#000000;fontSize=13;fontStyle=0;comic=0;fontFamily=Lucida Console;labelBorderColor=none;textShadow=0;" connectable="0" vertex="1" parent="CrKRcG8iRqfCQJ3Y7D6_-2">
+          <mxGeometry x="68" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="CrKRcG8iRqfCQJ3Y7D6_-5" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fillColor=#FAE5C7;comic=0;fontStyle=0;fontFamily=Lucida Console;labelBackgroundColor=none;labelBorderColor=none;textShadow=0;" edge="1" parent="CrKRcG8iRqfCQJ3Y7D6_-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="37" as="sourcePoint" />
+            <mxPoint x="260" y="37" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CrKRcG8iRqfCQJ3Y7D6_-6" value="ai3_model = ai3.convert(&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;orig_model&lt;/span&gt;&lt;/font&gt;, algos)" style="swimlane;html=1;labelBackgroundColor=none;fillColor=#f2f2eb;strokeColor=#000000;fontSize=13;rounded=1;fontFamily=Lucida Console;gradientColor=none;swimlaneFillColor=#f2f3f4;fontStyle=0;comic=0;collapsible=0;fontColor=#000000;labelBorderColor=none;textShadow=0;" vertex="1" parent="1">
+          <mxGeometry x="474.66666666666674" y="1997.3333333333333" width="420" height="140" as="geometry">
+            <mxRectangle x="397" y="157" width="361" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CrKRcG8iRqfCQJ3Y7D6_-7" value="&lt;div&gt;ai3.Model&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ai3.layers.Conv2D&lt;br&gt;ai3.layers.Linear&lt;br&gt;ai3.layers.MaxPool2D&lt;br&gt;ai3.layers.X&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontColor=#000000;fontSize=13;fontStyle=0;comic=0;fontFamily=Lucida Console;labelBorderColor=none;textShadow=0;" connectable="0" vertex="1" parent="CrKRcG8iRqfCQJ3Y7D6_-6">
+          <mxGeometry x="253" y="127" as="geometry" />
+        </mxCell>
+        <mxCell id="CrKRcG8iRqfCQJ3Y7D6_-8" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;strokeColor=#000000;fontColor=#000000;fillColor=#FAE5C7;rotation=90;fontSize=10;fontStyle=0;comic=0;fontFamily=Lucida Console;labelBackgroundColor=none;labelBorderColor=none;textShadow=0;" vertex="1" parent="CrKRcG8iRqfCQJ3Y7D6_-6">
+          <mxGeometry x="204" y="-146.75" width="12" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="CrKRcG8iRqfCQJ3Y7D6_-9" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fillColor=#FAE5C7;comic=0;fontStyle=0;fontFamily=Lucida Console;labelBackgroundColor=none;labelBorderColor=none;textShadow=0;" edge="1" parent="CrKRcG8iRqfCQJ3Y7D6_-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="42" as="sourcePoint" />
+            <mxPoint x="250" y="42" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CrKRcG8iRqfCQJ3Y7D6_-10" value="&lt;div&gt;torch.nn.Module&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;torch.nn.Conv2d&lt;/div&gt;torch.nn.Linear&lt;br&gt;torch.nn.MaxPool2d&lt;br&gt;torch.nn.X" style="edgeLabel;resizable=0;html=1;;align=right;verticalAlign=bottom;labelBackgroundColor=none;fontColor=#000000;fontSize=13;fontStyle=0;comic=0;fontFamily=Lucida Console;labelBorderColor=none;textShadow=0;" connectable="0" vertex="1" parent="CrKRcG8iRqfCQJ3Y7D6_-6">
+          <mxGeometry x="160" y="127" as="geometry" />
+        </mxCell>
+        <mxCell id="CrKRcG8iRqfCQJ3Y7D6_-11" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;strokeColor=#000000;fontColor=#000000;fillColor=#FAE5C7;enumerate=0;comic=0;direction=west;sketch=1;curveFitting=1;jiggle=2;sketchStyle=rough;fontStyle=0;fontFamily=Lucida Console;labelBackgroundColor=none;labelBorderColor=none;textShadow=0;" vertex="1" parent="CrKRcG8iRqfCQJ3Y7D6_-6">
+          <mxGeometry x="403" y="67" width="14" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="CrKRcG8iRqfCQJ3Y7D6_-12" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fillColor=#FAE5C7;comic=0;fontStyle=0;fontFamily=Lucida Console;labelBackgroundColor=none;labelBorderColor=none;textShadow=0;" edge="1" parent="CrKRcG8iRqfCQJ3Y7D6_-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="74" as="sourcePoint" />
+            <mxPoint x="250" y="74" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CrKRcG8iRqfCQJ3Y7D6_-13" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fillColor=#FAE5C7;comic=0;fontStyle=0;fontFamily=Lucida Console;labelBackgroundColor=none;labelBorderColor=none;textShadow=0;" edge="1" parent="CrKRcG8iRqfCQJ3Y7D6_-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="89" as="sourcePoint" />
+            <mxPoint x="250" y="89" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CrKRcG8iRqfCQJ3Y7D6_-14" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fillColor=#FAE5C7;comic=0;fontStyle=0;fontFamily=Lucida Console;labelBackgroundColor=none;labelBorderColor=none;textShadow=0;" edge="1" parent="CrKRcG8iRqfCQJ3Y7D6_-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="104" as="sourcePoint" />
+            <mxPoint x="250" y="104" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CrKRcG8iRqfCQJ3Y7D6_-15" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fillColor=#FAE5C7;comic=0;fontStyle=0;fontFamily=Lucida Console;labelBackgroundColor=none;labelBorderColor=none;textShadow=0;" edge="1" parent="CrKRcG8iRqfCQJ3Y7D6_-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="119" as="sourcePoint" />
+            <mxPoint x="250" y="119" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CrKRcG8iRqfCQJ3Y7D6_-16" value="&lt;p style=&quot;line-height: 110%; font-size: 13px;&quot;&gt;&lt;/p&gt;&lt;div style=&quot;font-size: 13px; line-height: 100%;&quot; align=&quot;left&quot;&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;import torch&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px; line-height: 100%;&quot; align=&quot;left&quot;&gt;&lt;div style=&quot;font-size: 13px; line-height: 100%;&quot; align=&quot;left&quot;&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;import ai3 &lt;font color=&quot;#666666&quot; style=&quot;font-size: 13px;&quot;&gt;# the framework&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px; line-height: 100%;&quot; align=&quot;left&quot;&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;...&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px; line-height: 100%;&quot; align=&quot;left&quot;&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px; line-height: 100%;&quot; align=&quot;left&quot;&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;orig_model: torch.nn.Module = Model()&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px; line-height: 100%;&quot; align=&quot;left&quot;&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;algos: ai3.AlgorithmicSelector = ...&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;html=1;labelBackgroundColor=none;fillColor=#F2F2EA;strokeColor=#696969;fontColor=#000000;fontSize=13;gradientColor=none;fontStyle=0;comic=0;movable=1;treeFolding=0;treeMoving=0;fontFamily=Lucida Console;labelBorderColor=none;textShadow=0;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="756.6666666666667" y="1859.3333333333333" width="302" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="CrKRcG8iRqfCQJ3Y7D6_-17" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;pred: torch.Tensor = ai3_model(input)&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/span&gt;" style="rounded=1;html=1;labelBackgroundColor=none;fillColor=#F2F2EA;strokeColor=#000000;fontColor=#000000;fontSize=13;glass=0;fontStyle=0;fontFamily=Lucida Console;comic=0;labelBorderColor=none;textShadow=0;" vertex="1" parent="1">
+          <mxGeometry x="534.6666666666667" y="2172.333333333333" width="300" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="CrKRcG8iRqfCQJ3Y7D6_-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#000000;fontColor=#000000;fontSize=13;fontStyle=0;comic=0;fontFamily=Lucida Console;labelBorderColor=none;textShadow=0;" edge="1" parent="1" source="CrKRcG8iRqfCQJ3Y7D6_-6" target="CrKRcG8iRqfCQJ3Y7D6_-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="594.6566666666668" y="2189.333333333333" as="sourcePoint" />
+            <mxPoint x="593.6566666666668" y="2324.333333333333" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CrKRcG8iRqfCQJ3Y7D6_-19" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#000000;fontColor=#000000;fillColor=#FAE5C7;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;curved=0;exitPerimeter=0;comic=0;fontStyle=0;fontFamily=Lucida Console;labelBackgroundColor=none;labelBorderColor=none;textShadow=0;" edge="1" parent="1" source="CrKRcG8iRqfCQJ3Y7D6_-11" target="CrKRcG8iRqfCQJ3Y7D6_-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1389.6666666666667" y="2366.333333333333" as="sourcePoint" />
+            <mxPoint x="1439.6666666666667" y="2316.333333333333" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CrKRcG8iRqfCQJ3Y7D6_-20" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fillColor=#FAE5C7;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;curved=1;comic=0;fontStyle=0;fontFamily=Lucida Console;labelBackgroundColor=none;labelBorderColor=none;textShadow=0;" edge="1" parent="1" target="CrKRcG8iRqfCQJ3Y7D6_-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1241.6666666666667" y="2047.3333333333333" as="sourcePoint" />
+            <mxPoint x="1538.6666666666667" y="2251.333333333333" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1171.6666666666667" y="2097.333333333333" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CrKRcG8iRqfCQJ3Y7D6_-21" value="pred: torch.Tensor = orig_model(input)" style="rounded=1;html=1;labelBackgroundColor=none;fillColor=#F2F2EA;strokeColor=#000000;fontColor=#000000;fontSize=13;glass=0;fontStyle=0;fontFamily=Lucida Console;comic=0;labelBorderColor=none;textShadow=0;" vertex="1" parent="1">
+          <mxGeometry x="974.6666666666667" y="2172.333333333333" width="300" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="CrKRcG8iRqfCQJ3Y7D6_-22" value="&lt;font&gt;&lt;i&gt;C++&lt;/i&gt; implementation of the algorithm selected by user&lt;/font&gt;" style="rounded=1;html=1;fillColor=#cbcee1;strokeColor=#56517e;fontSize=13;shadow=0;fontStyle=0;comic=0;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;textShadow=0;whiteSpace=wrap;sketchStyle=comic;" vertex="1" parent="1">
+          <mxGeometry x="924.6666666666667" y="2072.333333333333" width="148.25" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="CrKRcG8iRqfCQJ3Y7D6_-23" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fillColor=#FAE5C7;labelBackgroundColor=none;labelBorderColor=none;textShadow=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CrKRcG8iRqfCQJ3Y7D6_-16" target="CrKRcG8iRqfCQJ3Y7D6_-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1142.6666666666667" y="2251.333333333333" as="sourcePoint" />
+            <mxPoint x="1111.6666666666667" y="1964.3333333333333" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CrKRcG8iRqfCQJ3Y7D6_-24" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fillColor=#FAE5C7;exitX=0.25;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;labelBorderColor=none;textShadow=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CrKRcG8iRqfCQJ3Y7D6_-16" target="CrKRcG8iRqfCQJ3Y7D6_-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="922.6666666666667" y="2078.333333333333" as="sourcePoint" />
+            <mxPoint x="670.6666666666667" y="1946.3333333333333" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CrKRcG8iRqfCQJ3Y7D6_-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#A8201A;fontColor=#000000;fillColor=#FAE5C7;labelBackgroundColor=none;labelBorderColor=none;textShadow=0;" edge="1" parent="1" source="CrKRcG8iRqfCQJ3Y7D6_-17" target="CrKRcG8iRqfCQJ3Y7D6_-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

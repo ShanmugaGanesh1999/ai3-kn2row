@@ -1,0 +1,43 @@
+[project]
+name = "aithree"
+readme = "README.rst"
+homepage = "https://github.com/KLab-ai3/ai3"
+documentation = "https://klab-ai3.github.io/ai3"
+description = "Enables Algorithmic Selection and Customization in Deep Neural Networks"
+authors = [
+{name = "Timothy Cronin"}
+]
+classifiers = [
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries",
+    "License :: OSI Approved :: Apache Software License",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: C++",
+    "Programming Language :: Python"
+]
+dynamic = ["version"]
+requires-python = ">=3.8"
+dependencies = [
+    "packaging"
+]
+
+[build-system]
+requires = ["scikit-build-core", "pybind11"]
+build-backend = "scikit_build_core.build"
+
+[tool.scikit-build]
+cmake.build-type = "Release"
+wheel.packages = ["src/ai3"]
+sdist.cmake = false
+cmake.define = {SKBUILD_PROJECT_NAME="ai3"}
+metadata.version.provider = "scikit_build_core.metadata.setuptools_scm"
+sdist.include = ["src/ai3/_version.py"]
+
+[tool.setuptools_scm]
+write_to = "src/ai3/_version.py"
+
+[project.optional-dependencies]
+dev = ["numpy", "torch", "torchvision"]
+format = ["autopep8"]
+doc = ["sphinx", "breathe", "pydata-sphinx-theme"]

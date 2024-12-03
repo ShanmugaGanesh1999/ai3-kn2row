@@ -1,0 +1,12 @@
+[
+    {
+        "version": "latest",
+        "url": "https://klab-ai3.github.io/ai3/latest"
+    },
+    {
+        "name": "0.1.0 (stable)",
+        "version": "0.1.0",
+        "url": "https://klab-ai3.github.io/ai3/0.1.0",
+        "preferred": true
+    }
+]
