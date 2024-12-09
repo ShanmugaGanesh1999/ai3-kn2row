@@ -1,2 +1,56 @@
-# ai3-kn2row
-Implementing the kn2row instead of the traditional matrix multiplication in conv layer on CNN.
+# Setup Instructions
+
+Follow these steps to set up your environment:
+
+1. Move into the project directory:
+
+   ```sh
+   cd ai3-kn2row
+   ```
+
+2. Execute the shell script:
+
+   ```sh
+   sh execute_kn2row.sh
+   ```
+
+   This script takes care of everything.
+
+---
+
+The result of kn2row is:
+
+traditional
+
+> Matrix multiplication time: 1.0927362442016602 seconds
+
+kn2row
+
+> Matrix multiplication time: 0.6199193000793457 seconds
+
+kn2row is 43.26% faster than the traditional matrix multiplication.
+
+```cpp
+// original src/ai3/custom/conv2d.hpp
+#pragma once
+
+#include <ai3.hpp>
+
+/**
+ * @DEFAULT_BOOL{Conv2D}
+ */
+const bool DEFAULT_CONV2D = false;
+
+/**
+ * @CUSTOM_OP{Conv2D,conv2d}
+ */
+template <typename dtype>
+Tensor conv2d_custom(Tensor input, const Tensor &kernel,
+                const std::optional<const Tensor> &bias,
+                const uint padding_h, const uint padding_w,
+                const uint stride_h, const uint stride_w,
+                const uint dilation_h, const uint dilation_w,
+                const PaddingMode padding_mode, uint groups) {
+   errs::no_user_def("conv2d");
+}
+```
