@@ -16,7 +16,7 @@ module load SYCL/2024.0.1.46
 
 # Install dependencies
 pip install "torch>=2.4"
-pip install torchvision
+pip install torchvision pillow
 
 # Change directory to ai3 and install the package
 pip install .

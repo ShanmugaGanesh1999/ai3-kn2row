@@ -18,18 +18,6 @@ Follow these steps to set up your environment:
 
 ---
 
-The result of kn2row is:
-
-traditional
-
-> Matrix multiplication time: 1.0927362442016602 seconds
-
-kn2row
-
-> Matrix multiplication time: 0.6199193000793457 seconds
-
-kn2row is 43.26% faster than the traditional matrix multiplication.
-
 ```cpp
 // original src/ai3/custom/conv2d.hpp
 #pragma once
