@@ -8,7 +8,7 @@
 /**
  * @DEFAULT_BOOL{Conv2D}
  */
-const bool DEFAULT_CONV2D = false;
+const bool DEFAULT_CONV2D = true;
 
 /**
  * @CUSTOM_OP{Conv2D,conv2d}
